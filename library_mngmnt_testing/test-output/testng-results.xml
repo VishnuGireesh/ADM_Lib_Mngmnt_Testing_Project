@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47900" started-at="2020-05-01T11:57:00 IST" finished-at="2020-05-01T11:57:48 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47900" started-at="2020-05-01T11:57:00 IST" finished-at="2020-05-01T11:57:48 IST">
+      <class name="com.lib_testing.RegistrationCheck">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lib_testing.RegistrationCheck@6d3af739]" name="setUp" is-config="true" duration-ms="3517" started-at="2020-05-01T11:57:42 IST" finished-at="2020-05-01T11:57:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Register()[pri:0, instance:com.lib_testing.RegistrationCheck@6d3af739]" name="Register" duration-ms="1455" started-at="2020-05-01T11:57:46 IST" finished-at="2020-05-01T11:57:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lib_testing.RegistrationCheck@6d3af739]" name="tearDown" is-config="true" duration-ms="709" started-at="2020-05-01T11:57:47 IST" finished-at="2020-05-01T11:57:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lib_testing.RegistrationCheck -->
+      <class name="com.lib_testing.LogoutTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lib_testing.LogoutTest@4516af24]" name="setUp" is-config="true" duration-ms="4795" started-at="2020-05-01T11:57:00 IST" finished-at="2020-05-01T11:57:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.lib_testing.LogoutTest@4516af24]" name="Logout" duration-ms="1754" started-at="2020-05-01T11:57:05 IST" finished-at="2020-05-01T11:57:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lib_testing.LogoutTest@4516af24]" name="tearDown" is-config="true" duration-ms="812" started-at="2020-05-01T11:57:06 IST" finished-at="2020-05-01T11:57:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lib_testing.LogoutTest -->
+      <class name="com.lib_testing.Book_Issue">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lib_testing.Book_Issue@4ae82894]" name="setUp" is-config="true" duration-ms="3597" started-at="2020-05-01T11:57:07 IST" finished-at="2020-05-01T11:57:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bookIsuueTest()[pri:0, instance:com.lib_testing.Book_Issue@4ae82894]" name="bookIsuueTest" duration-ms="5819" started-at="2020-05-01T11:57:11 IST" finished-at="2020-05-01T11:57:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookIsuueTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lib_testing.Book_Issue@4ae82894]" name="tearDown" is-config="true" duration-ms="1230" started-at="2020-05-01T11:57:17 IST" finished-at="2020-05-01T11:57:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lib_testing.Book_Issue -->
+      <class name="com.lib_testing.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lib_testing.LoginTest@543788f3]" name="setUp" is-config="true" duration-ms="3857" started-at="2020-05-01T11:57:18 IST" finished-at="2020-05-01T11:57:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bothIncorrectTest()[pri:0, instance:com.lib_testing.LoginTest@543788f3]" name="bothIncorrectTest" duration-ms="3711" started-at="2020-05-01T11:57:22 IST" finished-at="2020-05-01T11:57:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bothIncorrectTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lib_testing.LoginTest@543788f3]" name="tearDown" is-config="true" duration-ms="836" started-at="2020-05-01T11:57:26 IST" finished-at="2020-05-01T11:57:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lib_testing.LoginTest@543788f3]" name="setUp" is-config="true" duration-ms="3853" started-at="2020-05-01T11:57:26 IST" finished-at="2020-05-01T11:57:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="incorrectPasswordTest()[pri:0, instance:com.lib_testing.LoginTest@543788f3]" name="incorrectPasswordTest" duration-ms="613" started-at="2020-05-01T11:57:30 IST" finished-at="2020-05-01T11:57:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectPasswordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lib_testing.LoginTest@543788f3]" name="tearDown" is-config="true" duration-ms="687" started-at="2020-05-01T11:57:31 IST" finished-at="2020-05-01T11:57:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lib_testing.LoginTest@543788f3]" name="setUp" is-config="true" duration-ms="3771" started-at="2020-05-01T11:57:32 IST" finished-at="2020-05-01T11:57:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="incorrectUsernameTest()[pri:0, instance:com.lib_testing.LoginTest@543788f3]" name="incorrectUsernameTest" duration-ms="649" started-at="2020-05-01T11:57:35 IST" finished-at="2020-05-01T11:57:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUsernameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lib_testing.LoginTest@543788f3]" name="tearDown" is-config="true" duration-ms="719" started-at="2020-05-01T11:57:36 IST" finished-at="2020-05-01T11:57:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lib_testing.LoginTest@543788f3]" name="setUp" is-config="true" duration-ms="3749" started-at="2020-05-01T11:57:37 IST" finished-at="2020-05-01T11:57:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.lib_testing.LoginTest@543788f3]" name="loginTest" duration-ms="795" started-at="2020-05-01T11:57:40 IST" finished-at="2020-05-01T11:57:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lib_testing.LoginTest@543788f3]" name="tearDown" is-config="true" duration-ms="838" started-at="2020-05-01T11:57:41 IST" finished-at="2020-05-01T11:57:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lib_testing.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
